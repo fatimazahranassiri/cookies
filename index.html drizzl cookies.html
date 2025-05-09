@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies Delight</title>
+    <link rel="stylesheet" href="styles drizzl cookies.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-start">
+                <div class="logo">
+                    <img src="logo.png.png" alt=""  width="100" >
+                </div>
+                <span class="patisseries-text"> Drizzl cookies </span>
+            </div>
+            <div class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#cookies">Nos Cookies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="commande-btn">commande <img src="cokies.png" alt="cart"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="hero">
+            <div class="hero-content">
+                <h1>Découvrez nos Drizzl Cookies !</h1>
+                <p>Des cookies frais et gourmands<br>faits avec amour.</p>
+                <a href="#contact" class="cta-button">contactez-nous</a>
+            </div>
+            <div class="hero-image">
+                  <img src="cokies_2-removebg-preview.png" alt="Delicious Cookies">
+            </div>
+        </section>
+
+        <!-- Welcome Section -->
+        <section id="about" class="welcome">
+            <div class="welcome-image">
+                <img src="phtos de chef.png" alt="Notre Chef" class="circle-image">
+            </div>
+            <div class="welcome-text">
+                <h2>Bienvenue</h2>
+                <p class="italic-text">Chaque cookie est une œuvre d'art,<br>
+                chaque bouchée un moment de bonheur.<br>
+                Plus que des cookies — nous créons des souvenirs.</p>
+            </div>
+        </section>
+
+        <!-- Our Specialties Section -->
+        <section id="cookies" class="specialties">
+            <h2>Nos Spécialités</h2>
+            <div class="specialties-grid">
+                <div class="specialty-card">
+                    <img src="cokies 1.png" alt="Cookie Chocolat">
+                   <h3> Milk Chocalate Chip Cookie</h3>
+                    <p>Thick classic cookie, crunshy from edges,chewy in middle & sprinkled with fine sea salt</p>
+                    <div class="price">15.00 DH</div>
+                    <button class="order-btn"><span>Commander</span></button>
+                </div>
+                <div class="specialty-card">
+                    <img src="cokiees_2-removebg-preview.png" alt="Cookie Nutella">
+                    <h3>Red Velvet Cookie</h3>
+                    <p>A rich chocalate cookie with a creamy vanilla cream cheese frosting</p>
+                    <div class="price">17.00 DH</div>
+                    <button class="order-btn"><span>Commander</span></button>
+                </div>
+                <div class="specialty-card">
+                    <img src="cokies_3-removebg-preview.png" alt="Cookie Nutella">
+                    <h3>Cookie & Cream Milkshake Cookie</h3>
+                    <p>A chill Cookie& Cream cookie , frosted with a vanilla Cookie& Cream milkshake insired frosting</p>
+                    <div class="price">17.00 DH</div>
+                    <button class="order-btn"><span>Commander</span></button>
+                </div>
+                <div class="specialty-card">
+                    <img src="cokies4-removebg-preview.png" alt="Cookie Nutella">
+                    <h3>Twix Cookie</h3>
+                    <p>A shortbead cookie ,topped with a gooey layer of caramel & a rich layer of chocolate milk"
+                    </p>
+                    <div class="price">17.00 DH</div>
+                    <button class="order-btn"><span>Commander</span></button>
+                </div>
+                <div class="specialty-card">
+                    <img src="cokies5-removebg-preview.png" alt="Cookie Nutella">
+                    <h3>Classic Pink Sugar</h3>
+                    <p>Classic soft sugar cookie , glazed with a perfect swoop of vanilaa almond frosting</p>
+                    <div class="price">15.00 DH</div>
+                    <button class="order-btn"><span>Commander</span></button>
+                </div>
+               
+                
+              
+            </div>
+        </section>
+
+        <!-- WhatsApp Promo Section -->
+        <section class="whatsapp-promo">
+            <div class="promo-container">
+                <div class="promo-image">
+                    <img src="photos de logo.png" alt="Cookies délicieux" class="cookie-icon">
+                </div>
+                <div class="promo-content">
+                    <h2>Commandez vos cookies préférés<br>et recevez-les frais à votre porte</h2>
+                    <a href="https://wa.me/212600000000?text=Bonjour, je souhaite commander des cookies" class="whatsapp-button" target="_blank">
+                        commandez par whatsapp
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="contact-container">
+                <div class="contact-form-wrapper">
+                    <h2>COMMANDEZ VOS COOKIES</h2>
+                    <p class="subtitle">Livraison rapide et fraîche!</p>
+                    <form class="contact-form" action="https://formspree.io/f/xqaqekyd" method="POST">
+                        <div class="form-group">
+                            <label for="name">NOM</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Numéro de téléphone</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="06XXXXXXXX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cookie">choisir vos cookies</label>
+                            <select id="cookie" name="cookie" required>
+                                <option value="" disabled selected>Sélectionnez vos cookies préférés</option>
+                                <optgroup label="Cookies Classiques">
+                                    <option value="double-chocolat">Cookie Double Chocolat (15 DH)</option>
+                                    <option value="nutella">Cookie Nutella (18 DH)</option>
+                                    <option value="caramel">Cookie Caramel (16 DH)</option>
+                                </optgroup>
+                                <optgroup label="Spécialités">
+                                    <option value="peanut">Cookie Beurre de Cacahuète (20 DH)</option>
+                                    <option value="red-velvet">Cookie Red Velvet (22 DH)</option>
+                                    <option value="white-chocolate">Cookie White Chocolate (19 DH)</option>
+                                </optgroup>
+                                <optgroup label="Box de Cookies">
+                                    <option value="box-6">Box de 6 Cookies (90 DH)</option>
+                                    <option value="box-12">Box de 12 Cookies (170 DH)</option>
+                                    <option value="box-24">Box de 24 Cookies (320 DH)</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit-button">Envoyer</button>
+                    </form>
+                </div>
+                <div class="chef-image">
+                    <img src="phtos de chef.png" alt="Chef Pâtissière" class="chef-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+            <div class="contact-info-container">
+                <div class="contact-details">
+                    <h3>Contactez-nous</h3>
+                    <h4>Nos coordonnées</h4>
+                    <ul>
+                        <li>+212 766988501</li>
+                        <li>contact@cookiesdelight.ma</li>
+                        <li> Rabat, Maroc</li>
+                    </ul>
+                </div>
+                <div class="business-hours">
+                    <h3>De nouvelles saveurs tombent toutes les 2 semaines</h3>
+                </div>
+                <div class="delivery-info">
+                    <h3>Livraison</h3>
+                    <p>Délai de livraison: 24H</p>
+                    <p>Zone de livraison: Rabat - salé - Temara</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <div class="logo">COOKIES DELIGHT</div>
+                    <p>Cookies artisanaux depuis 2025</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#cookies">Nos Cookies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Drizzl Cookies . Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal pour le résumé du panier -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Votre Commande</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="cart-items">
+                    <!-- Les articles seront ajoutés ici dynamiquement -->
+                </div>
+                <div class="cart-total">
+                    <h3>Total: <span id="cart-total">0.00 DH</span></h3>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="clear-cart" class="btn-secondary">Vider le panier</button>
+                <button id="send-whatsapp" class="btn-primary">Commander sur WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script drizzl cookies.js"></script>
+    
+</body>
+</html> 
